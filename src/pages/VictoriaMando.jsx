@@ -7,7 +7,7 @@ export default function VictoriaMando() {
 <img src= "/mando.png" alt="logo" />
       <section className="App-content">
         <div className="heder"></div>
-        <p>Mando completa la mision</p>
+        <p>Mando completa la misión</p>
       </section>
     </header>
   </div>

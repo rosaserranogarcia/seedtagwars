@@ -34,3 +34,15 @@
 
 }
 
+.btn-ini {
+  text-align: center;
+  background-color: rgb(176, 183, 185);
+  color: rgb(113, 116, 116);
+  font-size: 20px;
+  font-style: bold;
+  border: none;
+  width: 300px; 
+  height: 70px; 
+  margin-top: 150px;
+  border-radius: 10px;
+}
