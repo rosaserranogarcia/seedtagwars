@@ -1,10 +1,12 @@
+
+import '../App.css'
+
 import { Link } from "react-router-dom"
 const Game = () => {
     
 return (
-    <div>
-        <h1>Game</h1>
-            <Link to="/" className="btn btn-outline-warning">Empezar nueva aventura</Link>
+    <div className='row justify-content-between'>
+            <Link to="/" className="btn btn-game btn-outline-warning  ">Empezar nueva aventura</Link>
     </div>
 );
 
