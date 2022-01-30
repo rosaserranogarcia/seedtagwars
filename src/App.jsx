@@ -6,10 +6,6 @@ const App = () => {
     return (
       <div>
       <Navbar/>
-      <div>
-
-          <div className="container-sm"></div>
-           </div>
            </div>
   );
 };

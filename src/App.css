@@ -7,5 +7,37 @@
   height: 60px;
   font-size: 1.5em;
   margin:0 auto;
-  margin-top: 15em;
+  margin-top: 14em;
+  color: white;
+}
+
+h3{
+  margin-top: 2em;
+  display: flex;
+  justify-content: flex-start;
+  color: black;
+}
+.container {
+  margin-top: 1em;
+}
+.colum-caras {
+  width: 30%;
+}
+img {
+  max-width: 8rem;
+  margin-left: 135px;
+  display: inline;
+}
+h2 {
+  color: #fbc106;
+}
+.colum-fichas {
+  width: 50%;
+}
+.fichas {
+  width: 20%;
+}
+.recipientes {
+  width: 10%;
+  display: inline;
 }

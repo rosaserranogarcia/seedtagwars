@@ -6,7 +6,8 @@ const Game = () => {
     
 return (
     <div className='row justify-content-between'>
-            <Link to="/" className="btn btn-game btn-outline-warning  ">Empezar nueva aventura</Link>
+    <h1>Esto es Game</h1>
+            <Link to="/tablero" className="btn btn-game btn-warning">Empezar nueva aventura</Link>
     </div>
 );
 

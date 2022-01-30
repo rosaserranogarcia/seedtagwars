@@ -6,6 +6,7 @@ import App from "./App";
 import Game from "./routes/Game";
 import Pieces from "./routes/Pieces";
 import Rules from "./routes/Rules";
+import Tablero from "./routes/Tablero";
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
@@ -16,9 +17,10 @@ ReactDOM.render(
 
 <App />
        <Routes>
-          <Route path="rules" element={<Rules />} />
+          <Route path="Rules" element={<Rules />} />
           <Route path="Pieces" element={<Pieces />} />
           <Route path="Game" element={<Game />} />
+          <Route path="Tablero" element={<Tablero />} />
        </Routes>
        </BrowserRouter>,
   document.getElementById('root')
