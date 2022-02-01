@@ -5,9 +5,10 @@ import { Link } from "react-router-dom"
 const Game = () => {
     
 return (
+    <div className='container'>
     <div className='row justify-content-between'>
-    <h1>Esto es Game</h1>
-            <Link to="/tablero" className="btn btn-game btn-warning">Empezar nueva aventura</Link>
+            <Link to="/tablero" className="btn btn-game btn-warning">EMPEZAR NUEVA AVENTURA</Link>
+    </div>
     </div>
 );
 

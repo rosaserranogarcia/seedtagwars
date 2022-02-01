@@ -2,14 +2,6 @@
 .navbar {
   height: 100px  ;
 }
-.btn-game {
-  width: 400px; 
-  height: 60px;
-  font-size: 1.5em;
-  margin:0 auto;
-  margin-top: 14em;
-  color: white;
-}
 
 h3{
   margin-top: 2em;
@@ -37,7 +29,29 @@ h2 {
 .fichas {
   width: 20%;
 }
+/*Pieces*/
 .recipientes {
   width: 10%;
-  display: inline;
+  text-align: center;
+  margin-left: 20px;
+}
+
+/*Game*/
+.btn-game {
+  width: 320px; 
+  height: 80px;
+  font-size: 1.3em;
+  margin:0 auto;
+  margin-top: 13em;
+  color: white;
+  padding-top:23px;
+}
+
+
+/*Tablero*/
+.btn-dado {
+  width: 10%;
+  height: 80%;
+  padding-top:30px;
+  margin-top: 40px;
 }

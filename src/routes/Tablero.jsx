@@ -4,9 +4,12 @@ import { Link } from "react-router-dom"
 const Tablero = () => {
     
     return (
-        <div className=''>
-        <h1>Esto es Tablero</h1>
-        <Link to="/" className="btn  btn-warning " >Dado</Link>
+        <div className='container'>
+        <div className='row'>
+        <div className='col text-end'>
+        <Link to="/" className="btn  btn-dado  btn-warning " >DADO</Link>
+        </div>
+        </div>
         </div>
     );
     
