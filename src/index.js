@@ -7,6 +7,7 @@ import Game from "./routes/Game";
 import Pieces from "./routes/Pieces";
 import Rules from "./routes/Rules";
 import Tablero from "./routes/Tablero";
+import Accion from "./routes/Accion";
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
@@ -21,6 +22,7 @@ ReactDOM.render(
           <Route path="Pieces" element={<Pieces />} />
           <Route path="Game" element={<Game />} />
           <Route path="Tablero" element={<Tablero />} />
+          <Route path="Accion" element={<Accion />} />
        </Routes>
        </BrowserRouter>,
   document.getElementById('root')
