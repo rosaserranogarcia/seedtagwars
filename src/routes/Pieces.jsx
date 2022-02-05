@@ -11,7 +11,7 @@ import '../App.css'
 const Pieces = () => {
 
     return (
-        <div>
+        <div className='cuerpo' >
             <h2 className="container text-center">Fichas</h2>
             <table class="table container colum-fichas table-bordered">
                 <tbody>

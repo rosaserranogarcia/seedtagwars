@@ -6,17 +6,17 @@ throwDice.forEach((dado) => {
       });
 
 
-const Accion = () => {
+const Action = () => {
 
     
 
     return (
-        <div>
-            <h1>Hola soy Accion</h1>
+        <div className="cuerpo">
+            <h1>Hola soy Action</h1>
         </div>
 
     );
 
 
 }
-export default Accion;
+export default Action;

@@ -1,35 +1,53 @@
 
+.back-text {
+  color: rgb(176, 180, 176);
+  background-color: rgba(212, 212, 212, 0.144);
+  
+}
+.cuerpo {
+  width: 100vw;
+  height: 100vw;
+  background-image: url(../src/assets/background.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.background-app {
+  margin: 0 auto;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+
+}
 .navbar {
   height: 100px  ;
 }
 
 h3{
-  margin-top: 2em;
   display: flex;
   justify-content: flex-start;
   color: black;
 }
-.container {
-  margin-top: 1em;
-}
-.colum-caras {
-  width: 30%;
-}
+
 img {
   max-width: 8rem;
   margin-left: 135px;
   display: inline;
 }
 h2 {
+  padding-top: 30px;
   color: #fbc106;
 }
+
+/*Pieces*/
 .colum-fichas {
   width: 50%;
 }
 .fichas {
   width: 20%;
 }
-/*Pieces*/
 .recipientes {
   width: 10%;
   text-align: center;
