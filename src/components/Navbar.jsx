@@ -1,18 +1,18 @@
-import { NavLink } from "react-router-dom"
-import "../styles/layout/navbar.css"
-
+import { NavLink } from "react-router-dom";
+import React, { useState } from 'react';
+import "../styles/layout/navbar.css";
+import "../styles/layout/App.css"
 const Navbar = () => {
-
     return (
-        <div className="">
+        <div className="body-app"> 
 
             <header className="header container">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
-                    <NavLink to="/Inicio" className="btn btn-outline-warning">Inicio</NavLink> 
+                    <NavLink to="/inicio" className="btn btn-outline-warning">Inicio</NavLink>
                     <NavLink to="/rules" className="btn btn-outline-warning">Reglas del juego</NavLink>
                     <NavLink to="/pieces" className="btn btn-outline-warning">Fichas</NavLink>
-                    <NavLink to="/game" className="btn btn-outline-warning">Juego</NavLink> 
+                    <NavLink to="/game" className="btn btn-outline-warning">Juego</NavLink>
                 </nav>
             </header>
         </div>

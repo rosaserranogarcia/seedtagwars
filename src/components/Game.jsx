@@ -7,7 +7,7 @@ import'../styles/layout/game.css'
 const Game = () => {
     
 return (
-    <div className='cuerpo '>
+    <div className='body-app '>
     <div className='row   justify-content-between'>
             <Link to="/tablero" className="btn btn-game btn-warning">EMPEZAR NUEVA AVENTURA</Link>
     </div>

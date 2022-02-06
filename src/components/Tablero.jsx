@@ -7,7 +7,7 @@ const Tablero = () => {
 
     return (
 
-        <div className='cuerpo'>
+        <div className='body-app'>
             <div className='row'>
                 <div className='col text-end'>
                     <Link to="/" className="btn  btn-dado  btn-warning " onclick="throwDice ()">DADO</Link>

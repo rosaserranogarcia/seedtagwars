@@ -7,7 +7,7 @@ const Rules = () => {
 
     return (
 
-        <div className='cuerpo '>
+        <div className='body-app '>
         <h2 className='rulesContainer_title text-center'>Misión</h2>
             <article className="container back-text rulesContainer rounded">
             <p>

@@ -10,7 +10,7 @@ const Action = () => {
     
 
     return (
-        <div className="cuerpo">
+        <div className="body-app">
             <div className="rulesContainer_title text-center">
                 
             <h1>Hola soy Action</h1>
