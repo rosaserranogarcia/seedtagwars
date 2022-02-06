@@ -1,4 +1,5 @@
-import '../App.css'
+import '../styles/layout/App.css'
+import '../styles/layout/tablero.css'
 import { Link } from "react-router-dom"
 
 const Tablero = () => {

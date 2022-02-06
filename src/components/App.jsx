@@ -1,10 +1,11 @@
 
-import Navbar from "./componentes/Navbar";
-import './App.css';
+import Navbar from "./Navbar";
+import '../styles/layout/App.css';
+
 const App = () => {
     return (
       <div>
-    <Navbar/>
+      <Navbar/>
     </div>
   );
 };

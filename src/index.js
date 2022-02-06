@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import App from "./App";
-import Game from "./routes/Game";
-import Pieces from "./routes/Pieces";
-import Rules from "./routes/Rules";
-import Tablero from "./routes/Tablero";
-import Action from "./routes/Action";
+import App from "./components/App";
+import Game from "./components/Game";
+import Pieces from "./components/Pieces";
+import Rules from "./components/Rules";
+import Tablero from "./components/Tablero";
+import Inicio from "./components/Inicio";
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
@@ -22,7 +22,7 @@ ReactDOM.render(
           <Route path="Pieces" element={<Pieces />} />
           <Route path="Game" element={<Game />} />
           <Route path="Tablero" element={<Tablero />} />
-          <Route path="Action" element={<Action />} />
+          <Route path="Inicio" element={<Inicio />} />
        </Routes>
        </BrowserRouter>,
   document.getElementById('root')

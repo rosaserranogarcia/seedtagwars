@@ -1,6 +1,5 @@
 import '../styles/layout/rules.css';
-import yoda from '../assets/Baby-Yoda-galletas.jpeg'
-import mando from '../assets/mando.png'
+import Footer from './Footer';
 
 
 
@@ -30,8 +29,8 @@ const Rules = () => {
             tendrás una buena recompensa.
           </p>
           </article>
-
-            <h2 className="rulesContainer text-center">Reglas de juego</h2>
+          <br></br>
+            <h2 className="rulesContainer text-center rulesContainer_title">Reglas de juego</h2>
 
             <p className="rulesContainer text-left back-text container rounded">Dispondremos de <strong>6 casillas</strong> que representan un camino en la zona de carga que lleva hasta el armario donde se encuentra segura la mercancía.</p>
             <p className="container-fluid text-center">🔲🔲🔲🔲🔲🔲❎</p>
@@ -44,6 +43,7 @@ const Rules = () => {
             </p>
             <br /><br />
             <p className="rulesContainer text-left back-text container rounded ">Además habrá una ficha que represente dónde está <strong>Grogu. <br /><br />Ganarás el juego si consigues descargar toda la mercancía. Perderás si <strong>Grogu.</strong> llega a la última casilla (el armario)</strong></p>
+            <Footer />
         </div>
     )
 

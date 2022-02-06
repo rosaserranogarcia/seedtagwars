@@ -1,6 +1,7 @@
-.navbar
-{
-    /* White tint with 0.5 opacity. */
-    background-color: transparent;
-    /* Notice how RGB of 255,255,255 is white. */
+.header .navbar {
+    background-color: transparent !important;
+  }
+  
+.btn {
+margin: 0 auto;
 }
