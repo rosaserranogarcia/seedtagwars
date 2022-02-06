@@ -1,0 +1,15 @@
+.body-inicio{
+    min-height: 100vh;
+    background-image: url(../../assets/monitor.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .video-inicio {
+    margin-top: 14em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

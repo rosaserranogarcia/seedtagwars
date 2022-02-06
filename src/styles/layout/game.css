@@ -1,10 +1,20 @@
-
+.body-game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  backdrop-filter: blur(6px);
+  background-image: url(../../assets/background.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+} 
 .btn-game {
     width: 320px; 
     height: 80px;
     font-size: 1.3em;
-    margin:0 auto;
-    margin-top: 13em;
+    padding-top: 22px;
     color: white;
-    padding-top:23px;
   }

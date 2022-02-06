@@ -4,10 +4,10 @@ import "../styles/layout/navbar.css";
 import "../styles/layout/App.css"
 const Navbar = () => {
     return (
-        <div className="body-app"> 
+        <div className="body-app bg-transparent"> 
 
-            <header className="header container">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <header className="header container bg-transparent">
+                <nav class="navbar navbar-expand-lg bg-transparent navbar-light bg-light">
 
                     <NavLink to="/inicio" className="btn btn-outline-warning">Inicio</NavLink>
                     <NavLink to="/rules" className="btn btn-outline-warning">Reglas del juego</NavLink>

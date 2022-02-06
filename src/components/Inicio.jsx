@@ -1,20 +1,25 @@
-import '../styles/layout/App.css'
-const throwDice = ["cookie, frog, frogEgg, grogu"];
-throwDice.forEach((dado) => {
-        console.log(dado); 
-      });
+import ReactPlayer from 'react-player'
+import '../styles/layout/inicio.css'
+import Footer from './Footer';
 
 
 const Action = () => {
 
-    
+
 
     return (
-        <div className="body-app">
-            <div className="rulesContainer_title text-center">
-                
-            <h1>Hola soy Action</h1>
+        <div className='wrapper'>
+            <div data-reactroot>
+                <div className="row body-inicio ">
+                    <ReactPlayer className='video-inicio container'
+                        url={require('../video/video-trailer.mp4')}
+                        controls={true}
+                        playing={true}
+                        loop={true}
+                    />
 
+                    <Footer />
+                </div>
             </div>
         </div>
 
